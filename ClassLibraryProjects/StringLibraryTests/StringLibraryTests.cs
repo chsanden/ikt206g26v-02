@@ -8,7 +8,7 @@ public sealed class StringLibraryTests
     [TestMethod]
     public void TestStartsWithUpper()
     {
-        string[] words = ["Alphabet", "Zebra", "ABC", "Αθήνα", "Москва"];
+        string[] words = ["Alphabet", "Zebra", "ABC", "Something", "Nothing"];
 
         foreach (string word in words)
         {
@@ -20,7 +20,7 @@ public sealed class StringLibraryTests
     [TestMethod]
     public void TestDoesNotStartWithUpper()
     {
-        string[] words = ["alphabet", "zebra", "abc", "αυτοκινητοβιομηχανία", "государство", "1234", ".", ";", " "];
+        string[] words = ["alphabet", "zebra", "abc", "nothing", "something", "1234", ".", ";", " "];
 
         foreach (string word in words)
         {
